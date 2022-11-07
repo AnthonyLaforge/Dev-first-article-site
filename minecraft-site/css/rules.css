@@ -1,0 +1,10 @@
+.top-pagebar a.rules {
+    text-decoration: underline;
+    color: gold;
+}
+p.text{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}

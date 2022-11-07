@@ -1,0 +1,48 @@
+body {
+    background: rgba(0, 0, 0, 0.8) url(/img/background-blackhole.jpg) no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+h1.alert {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    text-align: center;
+    margin: 200px;
+    color: goldenrod;
+}
+
+h1.alert a {
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-decoration: underline;
+}
+
+h1.alert a:hover {
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+    color: goldenrod;
+    text-decoration: underline;
+
+}
+
+form input#title {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+form textarea#textarea{
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    color: goldenrod;
+}

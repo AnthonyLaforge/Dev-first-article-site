@@ -1,0 +1,107 @@
+#mynews-content {
+    height: 1080px;
+    background: rgba(0, 0, 0, 0.3)url(/img/backgroundmc3.jpg) no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    box-shadow: inset 0px 0px 40px 40px rgba(0, 0, 0, 1);
+}
+
+div.post-news {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#mynews-content form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.message {
+    width: fit-content;
+    position: relative;
+}
+
+.message textarea {
+    margin: auto;
+    text-align: center;
+}
+
+div.posted-news {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+
+}
+
+div.article {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1000px;
+    margin: auto;
+}
+div.p{
+    width: 900px;
+}
+
+#pagination {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+a {
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.next {
+    font-size: 0.7em;
+    text-decoration: none;
+    margin: 50px;
+}
+
+a.previous {
+    font-size: 0.7em;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.active {
+    color: goldenrod;
+}
+
+form.choose-page {
+    margin: auto;
+    justify-content: center;
+}
+
+form.choose-page input {
+    position: relative;
+    left: 8px;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+    color: white;
+}

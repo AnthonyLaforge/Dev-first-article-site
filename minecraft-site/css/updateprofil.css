@@ -1,0 +1,74 @@
+.content-profil {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background: url(/img/woodbackground.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 40px 40px #000000;
+}
+
+.content-profil h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+#informations {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#informations strong {
+    color: goldenrod;
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    left: 50px;
+    color: white;
+    width: 400px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+form p {
+    margin: 5px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    margin-left: 1000px;
+}
+
+form [type=submit] {
+    margin-top: 25px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.errors-message {
+    margin: 50px;
+}
+
+#informations .avatar {
+    position: absolute;
+    left: 600px;
+    margin: auto;
+    width: fit-content;
+}

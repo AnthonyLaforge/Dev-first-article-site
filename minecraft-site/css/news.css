@@ -1,0 +1,103 @@
+.top-pagebar a.news {
+    text-decoration: underline;
+    color: gold;
+}
+
+#news-content {
+    height: 2200px;
+    background: rgba(0, 0, 0, 0.3)url(/img/background-news.jpg) no-repeat fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    box-shadow: inset 0px 0px 40px 40px rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+
+div.article {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 545px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+div.article h2 {
+    position: relative;
+    top: 28px;
+    left: 20px;
+    width: fit-content;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+div.p {
+    width: 900px;
+}
+
+i.pseudo {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    text-align: center;
+
+}
+
+footer {
+    position: absolute;
+    top: 2750px;
+    left: 50px;
+    color: white;
+}
+
+#pagination {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+a {
+    color: white;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.next {
+    font-size: 0.7em;
+    text-decoration: none;
+    margin: 50px;
+}
+
+a.previous {
+    font-size: 0.7em;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.active {
+    color: goldenrod;
+}
+
+form.choose-page {
+    margin: auto;
+    justify-content: center;
+}
+
+form.choose-page input {
+    position: relative;
+    left: 8px;
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,35 @@
+.top-pagebar a.index {
+    text-decoration: underline;
+    color: gold;
+}
+.index-content{
+    background: rgba(0, 0, 0, 0.2) url(/img/backgroundnether2.png) no-repeat;
+    box-shadow: inset 0px 0px 40px 40px #000000;
+    background-blend-mode: darken;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    height: 1200px;
+}
+p.introduction{
+    font-size: 3em;;
+}
+.last-news{
+    display: flex;
+    flex-direction: row;
+}
+.article{
+    margin: auto;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+}
+footer {
+    position: absolute;
+    top: 1820px;
+    left: 50px;
+    color: white;
+}

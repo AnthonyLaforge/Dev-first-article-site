@@ -1,0 +1,53 @@
+.top-pagebar a.support {
+    text-decoration: underline;
+    color: gold;
+}
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 50px;
+}
+form label{
+    color: goldenrod;
+    font-size: 1.5em;
+}
+form input#email{
+    display: flex;
+    order: 1;
+    text-align: center;
+    margin: auto;
+}
+form input#reason{
+    display: flex;
+    order: 2;
+    text-align: center;
+    margin: auto;
+}
+.reason{
+    margin-top: 50px;
+}
+form textarea{
+    display: flex;
+    order: 3;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 50px;
+}
+footer{
+    position: absolute;
+    top: 1350px;
+    left: 50px;
+    color: white;
+}
+body{
+    height: 1400px;
+}
+.mailmessage{
+    color: goldenrod;
+    text-align: center;
+    font-size: 1.5em;
+}

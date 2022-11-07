@@ -1,0 +1,216 @@
+.logbar {
+    height: 80px;
+    background: rgba(41, 40, 40, 0.8);
+    border-color: rgba(218, 165, 32, 0.5);
+    border-width: 2px;
+    border-style: solid;
+    border-bottom-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.2) url(/img/backgroundmc.jpg) no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    box-shadow: inset 0px 0px 40px 40px #000000
+}
+
+.top-pagebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.top-pagebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+    padding: 20px;
+    margin: 5px;
+    flex-basis: 100%;
+    text-align: center;
+
+}
+
+.top-pagebar a:hover {
+    font-weight: bolder;
+}
+
+nav.navbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 550px;
+    justify-content: space-between;
+    width: 1000px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px goldenrod;
+    height: fit-content;
+    background-color: rgb(36, 35, 33);
+}
+
+/* Menu de connexion */
+.connexion-menu {
+    position: relative;
+    display: inline-block;
+}
+
+div.connexion-title {
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(218, 165, 32, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    width: fit-content;
+    padding: 15px;
+}
+
+div.connexion-title p {
+    color: gold;
+    font-weight: bolder;
+    font-size: 2em;
+    height: 12px;
+}
+
+div.connexion-content {
+    color: goldenrod;
+    display: none;
+    position: absolute;
+    background: rgba(41, 40, 40, 0.8);
+    right: 0;
+    width: 190px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.connexion-menu:hover .connexion-content {
+    display: block;
+}
+
+div.connexion-content form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.connexion-content form button {
+    width: fit-content;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div a.registration {
+    position: relative;
+    top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.connexion-menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* When connected */
+p.hello {
+    position: relative;
+    margin: auto;
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Menu Profil */
+.profil-menu {
+    position: relative;
+    display: inline-block;
+}
+
+div.profil-title {
+    color: rgba(218, 165, 32, 0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    width: fit-content;
+    padding: 15px;
+}
+
+div.profil-title p {
+    color: gold;
+    width: fit-content;
+    height: 12px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+div.profil-content {
+    color: goldenrod;
+    display:none;
+    position: absolute;
+    background: rgba(41, 40, 40, 0.8);
+    right: 0;
+    top: 107px;
+    width: 190px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    justify-content: center;
+}
+
+.profil-menu:hover .profil-content {
+    display: block;
+}
+
+div a.registration {
+    position: relative;
+    top: 50px;
+    color: white;
+    text-align: center;
+}
+.profil-menu .avatar{
+    position: absolute;
+    right: 130px;
+    bottom: 6px;
+}
+
+.profil-content a.deconnexion {
+    color: red;
+    justify-self: center;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.profil-content a.profil {
+    font-size: 1.5em;
+    color: goldenrod;
+    justify-self: center;
+    margin-left: 40px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+}
+
+.profil-content a.mynews {
+    font-size: 1.5em;
+    color: goldenrod;
+    justify-self: center;
+    margin-left: 40px;
+    position: absolute;
+    top: 60px;
+    text-decoration: none;
+}
